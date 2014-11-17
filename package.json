@@ -1,0 +1,40 @@
+{
+  "name": "angular-sails-model",
+  "version": "0.0.1",
+  "description": "An angular service to bind sailsjs models to angular scope properties",
+  "keywords": [
+    "sailsjs",
+    "angular",
+    "sails.js",
+    "angular.js",
+    "angularjs",
+    "sails",
+    "model"
+  ],
+  "author": {
+    "name": "Agoston Nagy",
+    "url": "https://github.com/agostone"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agostone/angular-sails-model.git"
+  },
+  "devDependencies": {
+    "grunt-bower-install-simple": "1.0.x",
+    "grunt-ng-annotate": "0.3.x",
+    "grunt": "0.4.x",
+    "grunt-cli": "0.1.x",
+    "grunt-contrib-clean": "0.6.x",
+    "grunt-contrib-jshint": "0.10.x",
+    "grunt-contrib-concat": "0.3.x",
+    "grunt-contrib-uglify": "0.6.x",
+    "grunt-jscs": "0.8.x",
+    "grunt-tama": "git://github.com/agostone/grunt-tama.git"
+  },
+  "peerDependencies": {
+    "grunt": "0.4.x"
+  },
+  "scripts": {
+    "postinstall": "node_modules/.bin/grunt bower"
+  }
+}

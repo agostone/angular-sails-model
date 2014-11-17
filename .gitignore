@@ -1,0 +1,7 @@
+# Node
+bower
+node_modules
+
+# Eclipse
+.project
+.settings

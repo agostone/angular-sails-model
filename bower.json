@@ -1,0 +1,8 @@
+{
+  "name": "angular-sails-model",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular": "1.2.*",
+    "angular-mocks": "1.2.*"
+  }
+}
